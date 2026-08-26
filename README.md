@@ -28,8 +28,6 @@ print(score.score)
 
 ## Reproduce Results
 
-> **Hardware**: All benchmarks were evaluated on two NVIDIA Quadro RTX 8000 GPUs. However, a standard 11GB-16GB GPU is sufficient to reproduce the results.
-
 **Step 1. Clone & Environment**
 ```bash
 git clone https://github.com/AbdulmalikDS/LARE.git
