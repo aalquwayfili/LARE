@@ -2,7 +2,7 @@
 
 # 🌌 LARE: Low-Attention Region Encoding for Text–Image Retrieval
 
-**[Paper](https://arxiv.org/abs/2606.18885)** | [ICML 2026 EMMQA Workshop](https://qanta-org.github.io/competition/2026/icml/) | [Dense-Set Dataset](https://huggingface.co/datasets/AbdulmalekDS/Dense-Set)
+**[Paper](https://arxiv.org/abs/2606.18885)** | [ICML 2026 EMMQA Workshop](https://qanta-org.github.io/competition/2026/icml/) | [Dense-Set Dataset](https://huggingface.co/datasets/aalquwayfili/Dense-Set)
 
 **LARE** is a training-free augmentation for text-to-image retrieval in crowded scenes. Our method mines low-attention regions from a frozen vision encoder, encodes these regions alongside the full image, and combines regional embeddings with the global image embedding at inference time. This simple test-time procedure improves retrieval on Dense-Set variants that emphasize subtle and occluded content.
 
@@ -30,7 +30,7 @@ print(score.score)
 
 **Step 1. Clone & Environment**
 ```bash
-git clone https://github.com/AbdulmalikDS/LARE.git
+git clone https://github.com/aalquwayfili/LARE.git
 cd LARE
 conda env create -f environment.yml
 conda activate lare
