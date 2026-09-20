@@ -57,8 +57,11 @@ bash scripts/reproduce.sh siglip-so400m
           and Leena Alotaibi and Faisal Alhajari and Mohammed Alkhrashi
           and Alreem Almuhrij and Abdullah Aldwyish and Raied Aljadaany
           and Huda Alamri and Muhammad Kamran J. Khan},
-  booktitle={ICML 2026 Workshop on Efficient Multimodal Question Answering (EMMQA)},
+  booktitle={ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA)},
   year={2026},
+  eprint={2606.18885},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
   url={https://openreview.net/forum?id=42bo30qeLe}
 }
 ```
